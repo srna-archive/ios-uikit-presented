@@ -7,17 +7,17 @@
 //
 
 import UIKit
+import CoreData
 
-class Task {
-    var name: String
-    var dueDate: NSDate
-    var done: Bool
-    var image: UIImage?
+class Task: NSManagedObject {
+    @NSManaged var name: String
+    @NSManaged var dueDate: NSDate
+    @NSManaged var done: Bool
     
-    init(name: String, dueDate: NSDate) {
-        self.name = name
-        self.dueDate = dueDate
-        done = false
-        image = nil
+    var dueDateFormatted : String {
+        let dateFormatter = NSDateFormatter()
+        dateFormatter.dateStyle = .LongStyle
+        dateFormatter.timeStyle = .NoStyle
+        return dateFormatter.stringFromDate(dueDate)
     }
 }

@@ -14,6 +14,7 @@
 		C3FD56AB1CCF5D6D0061B0FB /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FD56AA1CCF5D6D0061B0FB /* Task.swift */; };
 		C3FD56AD1CCF5E930061B0FB /* TaskListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FD56AC1CCF5E930061B0FB /* TaskListTVC.swift */; };
 		C3FD56AF1CCF66600061B0FB /* TaskAddTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FD56AE1CCF66600061B0FB /* TaskAddTVC.swift */; };
+		C3FD56B21CCF85010061B0FB /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3FD56B01CCF85010061B0FB /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C3FD56AA1CCF5D6D0061B0FB /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		C3FD56AC1CCF5E930061B0FB /* TaskListTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListTVC.swift; sourceTree = "<group>"; };
 		C3FD56AE1CCF66600061B0FB /* TaskAddTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskAddTVC.swift; sourceTree = "<group>"; };
+		C3FD56B11CCF85010061B0FB /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				C3FD56AA1CCF5D6D0061B0FB /* Task.swift */,
+				C3FD56B01CCF85010061B0FB /* Model.xcdatamodeld */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			files = (
 				C3FD56AF1CCF66600061B0FB /* TaskAddTVC.swift in Sources */,
 				C3FD56AD1CCF5E930061B0FB /* TaskListTVC.swift in Sources */,
+				C3FD56B21CCF85010061B0FB /* Model.xcdatamodeld in Sources */,
 				C3FD56AB1CCF5D6D0061B0FB /* Task.swift in Sources */,
 				C3FD56961CCF5AC50061B0FB /* AppDelegate.swift in Sources */,
 			);
@@ -320,6 +324,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C3FD56B01CCF85010061B0FB /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C3FD56B11CCF85010061B0FB /* Model.xcdatamodel */,
+			);
+			currentVersion = C3FD56B11CCF85010061B0FB /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C3FD568A1CCF5AC50061B0FB /* Project object */;
 }
